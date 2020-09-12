@@ -179,5 +179,5 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
 
-[![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)](https://github.com/rajat2502/CodeINN/) [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://github.com/rajat2502/CodeINN/) [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://github.com/rajat2502/CodeINN/) [![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://github.com/rajat2502/CodeINN/)
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com) 
+[![Uses Git](https://forthebadge.com/images/badges/uses-git.svg)](https://github.com/rajat2502/CodeINN/) [![Uses HTML](https://forthebadge.com/images/badges/uses-html.svg)](https://github.com/rajat2502/CodeINN/) [![Uses CSS](https://forthebadge.com/images/badges/uses-css.svg)](https://github.com/rajat2502/CodeINN/) [![Uses JS](https://forthebadge.com/images/badges/uses-js.svg)](https://github.com/rajat2502/CodeINN/)
+[![Built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/rajat2502/CodeINN) [![Built By Developers](https://forthebadge.com/images/badges/built-by-developers.svg)](https://github.com/rajat2502/CodeINN) 

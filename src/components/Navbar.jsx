@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link, useHistory } from 'react-router-dom';
 
+import Icon from 'components/Icon';
+
 const Navbar = ({ user, setUser }) => {
   const history = useHistory();
 
@@ -47,6 +49,7 @@ const Navbar = ({ user, setUser }) => {
                 {JSON.parse(localStorage.getItem('user')) &&
                   JSON.parse(localStorage.getItem('user')).username}
               </span>
+              <Icon name='dropdown' style={{ fill: '#fff' }} />
             </button>
             <ul className='z-10 dropdown-menu absolute hidden text-black pt-1'>
               <li className=''>

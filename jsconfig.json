@@ -1,4 +1,3 @@
-// for absolute path
 {
   "compilerOptions": {
     "baseUrl": "src"

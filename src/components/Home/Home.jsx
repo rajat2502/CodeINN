@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import Footer from 'components/Footer';
+
 function Home() {
   return (
-    <div style={{ height: 'calc(100vh - 70px' }}>
+    <div>
       <div className='px-8 antialiased flex justify-center items-center h-auto bg-gray-800'>
         <div className='w-1/2 ml-10'>
           <h2 className='text-6xl text-white font-bold'>CodeINN</h2>
@@ -80,6 +82,7 @@ function Home() {
           </h3>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

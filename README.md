@@ -114,12 +114,12 @@ python manage.py runserver
 - [x] Add shortcuts to web editor
 - [x] Integrate save pen APIs in Web Editor
 - [x] Integrate All Snips API and Dashboard UI
+- [x] Add Makrdown previewer
+- [x] Integrate save program API for Markdown Previewer
 - [ ] Add Programming IDE UI
 - [ ] Add language support for some common lanaguges in programming editor (IDE)
 - [ ] Integrate Compiler API in IDE
 - [ ] Integrate save program API for IDE
-- [ ] Add Makrdown previewer
-- [ ] Integrate save program API for Markdown Previewer
 
 ## Team:
 

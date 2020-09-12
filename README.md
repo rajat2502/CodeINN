@@ -108,14 +108,17 @@ python manage.py runserver
 
 ### Features to be implemented:
 - [x] Add Routes for login, signup, homepage
-- [ ] Add Routes for dashboard, web editor and program editor
+- [x] Add Routes for dashboard, web editor and program editor
 - [x] Integrate login and signup APIs
-- [ ] Add Image hosting feature to web editor
-- [ ] Add shortcuts to web editor
-- [ ] Integrate save pen APIs in Web Editor
+- [x] Add Image hosting feature to web editor
+- [x] Add shortcuts to web editor
+- [x] Integrate save pen APIs in Web Editor
+- [ ] Add Programming IDE UI
 - [ ] Add language support for some common lanaguges in programming editor (IDE)
 - [ ] Integrate Compiler API in IDE
 - [ ] Integrate save program API for IDE
+- [ ] Add Makrdown previewer
+- [ ] Integrate save program API for Markdown Previewer
 
 ## Team:
 

@@ -1,6 +1,6 @@
 # CodeINN
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 CodeINN is a playground to practice frontend development and to run different programming languages.
@@ -33,6 +33,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://rajat2502.github.io/portfolio/"><img src="https://avatars2.githubusercontent.com/u/42200276?v=4" width="100px;" alt=""/><br /><sub><b>Rajat Verma</b></sub></a><br /><a href="https://github.com/rajat2502/CodeINN/commits?author=rajat2502" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/PragatiVerma18/"><img src="https://avatars2.githubusercontent.com/u/42115530?v=4" width="100px;" alt=""/><br /><sub><b>Pragati Verma</b></sub></a><br /><a href="https://github.com/rajat2502/CodeINN/commits?author=PragatiVerma18" title="Code">💻</a></td>
   </tr>
 </table>
 

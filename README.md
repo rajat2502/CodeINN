@@ -1,9 +1,12 @@
-# CodeINN
 
-![logo](https://user-images.githubusercontent.com/42115530/92987070-cc8d0d80-f4dc-11ea-8af3-f16da1eb1302.png)
+<div align="center"> <img align="center" alt="codeinn" src="https://user-images.githubusercontent.com/42115530/92988202-e29fcb80-f4e6-11ea-8464-40a6d0bd5297.png" height='100'></div>
 
-CodeINN is a playground to practice frontend development and to run different programming languages.
+
 <br /><br />
+CodeINN is an instant code editor :page_with_curl:, that makes programming and development easier. Practice quickly and directly from your web browser, without any setup needed. CodeINN gives the perfect environment to developers :man_technologist: , coders :computer: , and geeks :nerd_face: to do more with their tech.
+<br /><br />
+
+---
 
 ### Backend Technologies to be used:
 - Django

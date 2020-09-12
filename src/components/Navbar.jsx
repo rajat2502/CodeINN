@@ -30,9 +30,6 @@ const Navbar = ({ user, setUser }) => {
           className='h-12'
           alt='CodeINN'
         />
-        <span className='font-normal text-lg'>
-          &nbsp; - &nbsp;an online code editor
-        </span>
       </Link>
       {!user.username ? (
         <Link

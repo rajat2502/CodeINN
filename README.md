@@ -113,6 +113,7 @@ python manage.py runserver
 - [x] Add Image hosting feature to web editor
 - [x] Add shortcuts to web editor
 - [x] Integrate save pen APIs in Web Editor
+- [ ] Integrate All Snips API and Dashboard UIScreenshot from 2020-09-12 18-51-00
 - [ ] Add Programming IDE UI
 - [ ] Add language support for some common lanaguges in programming editor (IDE)
 - [ ] Integrate Compiler API in IDE

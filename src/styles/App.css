@@ -62,3 +62,149 @@ button:disabled {
 .dropdown:hover .dropdown-menu {
   display: block;
 }
+
+/* Web Editor - styles */
+
+/* Default window */
+.default-window {
+  flex-grow: 1;
+  overflow: hidden;
+  background: linear-gradient(to bottom right, #000000, #262626);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.default-window {
+  color: #fff;
+  user-select: none;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+/* Display window */
+.display-window {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+  flex-grow: 1;
+}
+
+/* Code editor */
+.code-editor {
+  transition: height 0.25s ease-in-out;
+}
+
+.react-codemirror2 {
+  height: 100%;
+  overflow: auto;
+}
+.program-editor .react-codemirror2 {
+  font-size: 20px;
+}
+
+.CodeMirror {
+  height: 100% !important;
+}
+
+.CodeMirror-scroll {
+  background-color: #1d1e22;
+}
+
+.CodeMirror-gutter {
+  background-color: #2a2a34c9;
+}
+
+/* image modal styles */
+.custom-file-upload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px 0;
+  padding: 10px;
+  transition: all 0.35s ease-in-out;
+}
+
+#file-upload {
+  display: none;
+}
+
+#upload-file-button {
+  background-color: #449d44;
+  border-color: #398439;
+  padding: 4px 10px;
+  width: 100%;
+  margin: 12px 0;
+  font-size: 1.3rem;
+}
+
+#upload-file-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+/* loader */
+#loading {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: #fff;
+  animation: spin 0.75s linear infinite;
+  margin: 5px;
+}
+
+@keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.paste-img-msg {
+  font-size: 1.3rem;
+  margin: 10px 0 14px;
+}
+
+.image-details h2,
+.upload-error h2 {
+  font-weight: normal;
+}
+
+.image-details p {
+  margin: 10px 0;
+  border: 1px solid white;
+  padding: 8px;
+  border-radius: 4px;
+  background: #1d1e22;
+  border: none;
+  position: relative;
+  word-break: break-word;
+}
+
+.image-url,
+.img-tag {
+  color: #2196f3;
+}
+
+.error-message {
+  color: #c9302c;
+  margin: 10px 0;
+}
+
+.copy-text {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 0.75rem;
+  color: #fff;
+  padding: 2px 6px;
+  background: #525252;
+  border-radius: 2px;
+  cursor: pointer;
+}

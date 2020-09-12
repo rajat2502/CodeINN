@@ -1,3 +1,4 @@
+/* eslint-disable no-useless-escape */
 export const parseMd = (md) => {
   //ul
   md = md.replace(/^\s*\n\*/gm, '<ul>\n*');
@@ -57,34 +58,3 @@ export const parseMd = (md) => {
 
   return md;
 };
-
-// var rawMode = true;
-// (mdEl = document.getElementById('markdown')),
-//   (outputEl = document.getElementById('output-html')),
-//   (parse = function () {
-//     outputEl[rawMode ? 'innerText' : 'innerHTML'] = parseMd(mdEl.innerText);
-//   });
-
-// parse();
-// mdEl.addEventListener('keyup', parse, false);
-
-// //Raw mode trigger btn
-// (function () {
-//   var trigger = document.getElementById('raw-switch'),
-//     status = trigger.getElementsByTagName('span')[0],
-//     updateStatus = function () {
-//       status.innerText = rawMode ? 'On' : 'Off';
-//     };
-
-//   updateStatus();
-//   trigger.addEventListener(
-//     'click',
-//     function (e) {
-//       e.preventDefault();
-//       rawMode = rawMode ? false : true;
-//       updateStatus();
-//       parse();
-//     },
-//     false
-//   );
-// })();

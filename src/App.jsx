@@ -47,6 +47,7 @@ function App() {
           <Route path='/mkd/new' exact component={MarkDownPreviewer} />
           <Route path='/programming/new' exact component={ProgramEditor} />
           <Route path='/web/:id' exact component={WebEditor} />
+          <Route path='/mkd/:id' exact component={MarkDownPreviewer} />
           <Route path='/programming/:id' exact component={ProgramEditor} />
         </Switch>
       </Router>

@@ -6,6 +6,8 @@ import Home from 'components/Home';
 import Signup from 'components/Signup';
 import Login from 'components/Login';
 import Dashboard from 'components/Dashboard';
+import WebEditor from 'components/WebEditor';
+import ProgramEditor from 'components/ProgramEditor';
 
 function App() {
   // user state
@@ -40,6 +42,10 @@ function App() {
             )}
           />
           <Route path='/dashboard' exact component={Dashboard} />
+          <Route path='/web/new' exact component={WebEditor} />
+          <Route path='/programming/new' exact component={ProgramEditor} />
+          <Route path='/web/:id' exact component={WebEditor} />
+          <Route path='/programming/:id' exact component={ProgramEditor} />
         </Switch>
       </Router>
     </div>

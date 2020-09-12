@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const corsAnywhere = 'https://cors-anywhere.herokuapp.com/';
+// const corsAnywhere = 'https://cors-anywhere.herokuapp.com/';
 const apiUrl = process.env.REACT_APP_API_URL;
 
 // Internal APIs

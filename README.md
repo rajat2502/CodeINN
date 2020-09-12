@@ -1,31 +1,59 @@
-# CodeINN
+<div align="center"> <img align="center" alt="codeinn" src="https://user-images.githubusercontent.com/42115530/92988202-e29fcb80-f4e6-11ea-8464-40a6d0bd5297.png" height='100'></div>
 
-<div align="center"> <img align="center" alt="codeinn" src="https://user-images.githubusercontent.com/42115530/92988202-e29fcb80-f4e6-11ea-8464-40a6d0bd5297.png"></div>
+
+<br /><br />
+CodeINN is an instant code editor :page_with_curl:, that makes programming and development easier. Practice quickly and directly from your web browser, without any setup needed. CodeINN gives the perfect environment to developers :man_technologist: , coders :computer: , and geeks :nerd_face: to do more with their tech.
+<br /><br />
 
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-CodeINN is a playground to practice frontend development and to run different programming languages.
-<br><br>
+## Features to be implemented:
 
-### Features to be implemented:
+- [ ] Playground for frontend development and various programming languages
+- [ ] Lets you download the website/code for local use
+- [ ] Import local images
+- [ ] Directly upload images from clipboard (with ctrl + c)
+- [ ] Many Editor shortcuts like `CTRL+/` for comments
 
-- Playground for frontend development and various programming languages
-- Lets you download the website/code for local use
-- Import local images
-- Directly upload images from clipboard (with ctrl + c)
-- Many Editor shortcuts like `CTRL+/` for comments
+## Technology Stack to be used:
+- **Frontend**: ReactJS, React-Hooks, React-Codemirror-2
+- **Backend**: Django, Django Rest Framework
+- **External APIs**: ImgBB API (For hosting images)
+- **IDE**: VS Code
+- **Design**: Adobe Photoshop, Canva
+- **API Testing & Documentation**: Postman
+- **Version Control**: Git and GitHub
+- **Database**: Sqllite3
+- **Hosting**: Heroku, Netlify
 
-### Technologies to be used:
+### How to Get Started?
 
-- ReactJS
-- React-Hooks
-- Django
-- React-Codemirror-2
-- ImgBB API (For hosting images)
-- Netlify.com (For website hosting)
+#### GitHub Repository Structure
+
+| S.No. | Branch Name | Purpose |
+| --------------- | --------------- | --------------- |
+| 1. | master | contains the main code  |
+| 2. | backend | contains all backend code |
+| 3. | frontend | contains all frontend code |
+| 4. | documentation | contains all documentation related changes |
+
+#### Setup
+
+- **Frontend**: [Find Instructions Here](https://github.com/rajat2502/CodeINN/tree/frontend#quick-start)
+- **Backend**: [Find Instructions Here](https://github.com/rajat2502/CodeINN/tree/backend#quick-start)
+
+## Team:
+
+> Team Members
+
+| S.No. | Team Member Name | Role | GitHub Username |
+| --------------- | --------------- | --------------- | --------------- |
+| 1. | Pragati Verma(Team Leader) | Backend Development | [@PragatiVerma18](https://github.com/PragatiVerma18) |
+| 2. | Rajat Verma | Frontend Developer| [@rajat2502](https://github.com/rajat2502)  |
+| 3. | Shristi Singh | UI Designer/Frontend Developer | [@shristisingh29](https://github.com/shristisingh29)  |
 
 ## Contributors ✨
 

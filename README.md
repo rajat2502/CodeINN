@@ -1,49 +1,53 @@
 # CodeINN
 
-<div align='center'> <img src='https://user-images.githubusercontent.com/42115530/92988202-e29fcb80-f4e6-11ea-8464-40a6d0bd5297.png' alt='codeinn' align='center'/></div>
-
-
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+![logo](https://user-images.githubusercontent.com/42115530/92988202-e29fcb80-f4e6-11ea-8464-40a6d0bd5297.png)
 
 CodeINN is a playground to practice frontend development and to run different programming languages.
 <br /><br />
 
-### Features to be implemented:
-
-- Playground for frontend development and various programming languages
-- Lets you download the website/code for local use
-- Import local images
-- Directly upload images from clipboard (with ctrl + c)
-- Many Editor shortcuts like `CTRL+/` for comments
-
-### Technologies to be used:
+### Frontend Technologies to be used:
 
 - ReactJS
-- React-Hooks
-- Django
-- React-Codemirror-2
+- React Hooks
+- React Codemirror2
 - ImgBB API (For hosting images)
-- Netlify.com (For website hosting)
+- Netlify (for hosting the web application)
 
-## Contributors ✨
+## Quick Start
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+- Fork and Clone the repo using
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://rajat2502.github.io/portfolio/"><img src="https://avatars2.githubusercontent.com/u/42200276?v=4" width="100px;" alt=""/><br /><sub><b>Rajat Verma</b></sub></a><br /><a href="https://github.com/rajat2502/CodeINN/commits?author=rajat2502" title="Code">💻</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/PragatiVerma18/"><img src="https://avatars2.githubusercontent.com/u/42115530?v=4" width="100px;" alt=""/><br /><sub><b>Pragati Verma</b></sub></a><br /><a href="https://github.com/rajat2502/CodeINN/commits?author=PragatiVerma18" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/shristisingh29"><img src="https://avatars1.githubusercontent.com/u/44435610?v=4" width="100px;" alt=""/><br /><sub><b>Shristi Singh</b></sub></a><br /><a href="#design-shristisingh29" title="Design">🎨</a></td>
-  </tr>
-</table>
+```
+git clone https://github.com/rajat2502/CodeINN.git
+cd CodeINN
+```
 
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+- Change Branch to `frontend` using
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+```
+git checkout frontend
+```
+
+- Install node dependencies
+
+```
+npm install
+```
+
+- Run Server at localhost using
+
+```
+npm start
+```
+
+### Features to be implemented:
+
+- [ ] Add Routes for login, signup, homepage
+- [ ] Add Routes for dashboard, web editor and program editor
+- [ ] Integrate login and signup APIs
+- [ ] Add Image hosting feature to web editor
+- [ ] Add shortcuts to web editor
+- [ ] Integrate save pen APIs in Web Editor
+- [ ] Add language support for some common lanaguges in programming editor (IDE)
+- [ ] Integrate Compiler API in IDE
+- [ ] Integrate save program API for IDE

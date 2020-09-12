@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Navbar from 'components/Navbar';
 import Home from 'components/Home';
 import Signup from 'components/Signup';
 import Login from 'components/Login';
+import Dashboard from 'components/Dashboard';
 
 function App() {
   // user state
@@ -30,6 +31,7 @@ function App() {
               <Login user={user} setUser={setUser} {...props} />
             )}
           />
+          <Route path='/dashboard' exact component={Dashboard} />
         </Switch>
       </Router>
     </div>

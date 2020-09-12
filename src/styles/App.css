@@ -1,0 +1,59 @@
+/* import proxima nova */
+@font-face {
+  font-family: proximaNova;
+  src: url('../assets/fonts/ProximaNovaRegular.ttf');
+}
+
+body {
+  font-size: 16px;
+  font-family: proximaNova, sans-serif;
+}
+
+/* focussed button, input */
+button:focus,
+input:focus {
+  outline: none;
+}
+
+/* disabled-button */
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* modal styles */
+.modal-main button {
+  color: #ffffff;
+  background: #525252;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.modal-main .danger-btn {
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+
+@keyframes animateOpacity {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

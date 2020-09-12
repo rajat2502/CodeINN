@@ -8,6 +8,7 @@ CodeINN is an instant code editor :page_with_curl:, that makes programming and d
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Features to be implemented:
@@ -35,10 +36,10 @@ CodeINN is an instant code editor :page_with_curl:, that makes programming and d
 
 | S.No. | Branch Name | Purpose |
 | --------------- | --------------- | --------------- |
-| 1. | master | contains the main code  |
-| 2. | backend | contains all backend code |
-| 3. | frontend | contains all frontend code |
-| 4. | documentation | contains all documentation related changes |
+| 1. | [master](https://github.com/rajat2502/CodeINN/tree/master) | contains the main code  |
+| 2. | [backend](https://github.com/rajat2502/CodeINN/tree/backend) | contains all backend code |
+| 3. | [frontend](https://github.com/rajat2502/CodeINN/tree/frontend) | contains all frontend code |
+| 4. | [documentation](https://github.com/rajat2502/CodeINN/tree/documentation) | contains all documentation related changes |
 
 #### Setup
 
@@ -49,9 +50,9 @@ CodeINN is an instant code editor :page_with_curl:, that makes programming and d
 
 > Team Members
 
-| S.No. | Team Member Name | Role | GitHub Username |
+| S.No. | Team Member Name | Role | GitHub Username:octocat: |
 | --------------- | --------------- | --------------- | --------------- |
-| 1. | Pragati Verma(Team Leader) | Backend Development | [@PragatiVerma18](https://github.com/PragatiVerma18) |
+| 1. | Pragati Verma | Backend Development | [@PragatiVerma18](https://github.com/PragatiVerma18) |
 | 2. | Rajat Verma | Frontend Developer| [@rajat2502](https://github.com/rajat2502)  |
 | 3. | Shristi Singh | UI Designer/Frontend Developer | [@shristisingh29](https://github.com/shristisingh29)  |
 

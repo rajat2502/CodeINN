@@ -126,9 +126,9 @@ python manage.py runserver
 
 | S.No. | Team Member Name | Role | GitHub Username:octocat: |
 | --------------- | --------------- | --------------- | --------------- |
-| 1. | Pragati Verma | Backend Development | [@PragatiVerma18](https://github.com/PragatiVerma18) |
+| 1. | Pragati Verma | Backend Developer | [@PragatiVerma18](https://github.com/PragatiVerma18) |
 | 2. | Rajat Verma | Frontend Developer| [@rajat2502](https://github.com/rajat2502)  |
-| 3. | Shristi Singh | UI Designer/Frontend Developer | [@shristisingh29](https://github.com/shristisingh29)  |
+| 3. | Shristi Singh | UI Designer | [@shristisingh29](https://github.com/shristisingh29)  |
 
 ## Contributors ✨
 

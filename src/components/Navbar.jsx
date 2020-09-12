@@ -4,6 +4,10 @@ import { Link, useHistory } from 'react-router-dom';
 const Navbar = ({ user, setUser }) => {
   const history = useHistory();
 
+  /**
+   * This function is used to logout the user
+   * by clearing the localStorage and updating the state
+   */
   const logOut = () => {
     setUser({});
     localStorage.clear();

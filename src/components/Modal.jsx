@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom';
 
 const Modal = ({ title, closeModal, children }) => {
+  // To close the modal when clicked outside the modal
   useEffect(() => {
     const closeModalEvent = (e) => {
       if (e.target === e.currentTarget) {

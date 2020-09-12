@@ -9,7 +9,7 @@ CodeINN is a playground to practice frontend development and to run different pr
 - Django
 - Django Rest Framework
 - Heroku
-- 
+- Sqllite3
 
 ## Quick Start
 
@@ -52,7 +52,7 @@ python manage.py runserver
 ```
 
 ### Features to be implemented:
-[] Add API endpoints for Login/Signup
-[] Add API endpoints to add/update/delete code
-[] Add API documentation using Postman
-[] Deploy APIs to Heroku
+- [ ] Add API endpoints for Login/Signup
+- [ ] Add API endpoints to add/update/delete code
+- [ ] Add API documentation using Postman
+- [ ] Deploy APIs to Heroku

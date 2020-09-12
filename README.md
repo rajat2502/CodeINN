@@ -67,46 +67,47 @@ $ npm start
 
 - Fork and Clone the repo using
 ```
-git clone https://github.com/rajat2502/CodeINN.git
-cd CodeINN
+$ git clone https://github.com/rajat2502/CodeINN.git
+$ cd CodeINN
 ```
 - Change Branch to `backend` using 
 ```
-git checkout backend
+$ git checkout backend
 ```
 - Setup Virtual environment
 ```
-python3 -m venv env
+$ python3 -m venv env
 ```
 - Activate the virtual environment
 ```
-source env/bin/activate
+$ source env/bin/activate
 ```
 - Install dependencies using
 ```
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 - Make migrations using
 ```
-python manage.py makemigrations
+$ python manage.py makemigrations
 ```
 - Migrate Database
 ```
-python manage.py migrate
+$ python manage.py migrate
 ```
 - Create a superuser
 ```
-python manage.py createsuperuser
+$ python manage.py createsuperuser
 ```
 - Run server using
 ```
-python manage.py runserver
-```
-
-  
+$ python manage.py runserver
+``` 
 </details>
 
-### Features to be implemented:
+## Slack Channel
+[https://join.slack.com/t/codeinnworkspace/shared_invite/zt-hncwfhlc-uZ48U49lBxBLKh_Xd1aXxQ](https://join.slack.com/t/codeinnworkspace/shared_invite/zt-hncwfhlc-uZ48U49lBxBLKh_Xd1aXxQ)
+
+## Progress:
 - [x] Add Routes for login, signup, homepage
 - [ ] Add Routes for dashboard, web editor and program editor
 - [x] Integrate login and signup APIs
@@ -121,7 +122,7 @@ python manage.py runserver
 
 > Team Members
 
-| S.No. | Team Member Name | Role | GitHub Username:octocat: |
+| S.No. | Name | Role | GitHub Username:octocat: |
 | --------------- | --------------- | --------------- | --------------- |
 | 1. | Pragati Verma | Backend Development | [@PragatiVerma18](https://github.com/PragatiVerma18) |
 | 2. | Rajat Verma | Frontend Developer| [@rajat2502](https://github.com/rajat2502)  |

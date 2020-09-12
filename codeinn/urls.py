@@ -7,4 +7,5 @@ urlpatterns = [
     path('', views.HelloView.as_view(), name='hello'),
     path('api/v1/user/', include('users.urls')),
     path('api/v1/', include('api.urls')),
+    path('api/v1/snip/', include('snips.urls')),
 ]

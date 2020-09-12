@@ -1,0 +1,42 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "rajat2502",
+      "name": "Rajat Verma",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/42200276?v=4",
+      "profile": "https://rajat2502.github.io/portfolio/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "PragatiVerma18",
+      "name": "Pragati Verma",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/42115530?v=4",
+      "profile": "https://www.linkedin.com/in/PragatiVerma18/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "shristisingh29",
+      "name": "Shristi Singh",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/44435610?v=4",
+      "profile": "https://github.com/shristisingh29",
+      "contributions": [
+        "design"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "CodeINN",
+  "projectOwner": "rajat2502",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

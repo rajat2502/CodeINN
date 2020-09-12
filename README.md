@@ -42,9 +42,9 @@ npm start
 
 ### Features to be implemented:
 
-- [ ] Add Routes for login, signup, homepage
+- [x] Add Routes for login, signup, homepage
 - [ ] Add Routes for dashboard, web editor and program editor
-- [ ] Integrate login and signup APIs
+- [x] Integrate login and signup APIs
 - [ ] Add Image hosting feature to web editor
 - [ ] Add shortcuts to web editor
 - [ ] Integrate save pen APIs in Web Editor

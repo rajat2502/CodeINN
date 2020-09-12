@@ -17,7 +17,7 @@ function Footer() {
               alt='Star'
               src='https://img.icons8.com/emoji/48/000000/glowing-star.png'
             />
-            Star us
+            Star us on GitHub
           </a>
           <a
             href='https://app.slack.com/client/T01B912QLGY'

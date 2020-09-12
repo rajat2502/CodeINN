@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Navbar from 'components/Navbar';
@@ -10,6 +10,14 @@ import Dashboard from 'components/Dashboard';
 function App() {
   // user state
   const [user, setUser] = useState({});
+
+  // get the user from localStorage if logged in
+  useEffect(() => {
+    const user = JSON.parse(localStorage.getItem('user'));
+    if (user) {
+      setUser(user);
+    }
+  }, []);
 
   return (
     <div className='App'>

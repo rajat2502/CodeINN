@@ -1,6 +1,6 @@
 # CodeINN
 
-![logo](https://user-images.githubusercontent.com/42115530/92987070-cc8d0d80-f4dc-11ea-8af3-f16da1eb1302.png)
+![logo](https://user-images.githubusercontent.com/42115530/92988202-e29fcb80-f4e6-11ea-8464-40a6d0bd5297.png)
 
 CodeINN is a playground to practice frontend development and to run different programming languages.
 <br /><br />

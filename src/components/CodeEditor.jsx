@@ -9,6 +9,7 @@ import 'codemirror/mode/clike/clike';
 import 'codemirror/mode/python/python';
 import 'codemirror/mode/php/php';
 import 'codemirror/mode/ruby/ruby';
+import 'codemirror/mode/markdown/markdown';
 
 // addons imports
 import 'codemirror/keymap/sublime';

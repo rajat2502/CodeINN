@@ -7,6 +7,7 @@ import Footer from 'components/Footer';
 import CodeSnip from 'components/Dashboard/CodeSnip';
 import AddCodeSnip from 'components/Dashboard/AddCodeSnip';
 import AddWebSnip from 'components/Dashboard/AddWebSnip';
+import AddMkdSnip from 'components/Dashboard/AddMkdSnip';
 
 function Dashboard() {
   const history = useHistory();
@@ -65,15 +66,16 @@ function Dashboard() {
         </div>
       </div>
 
-      <div className='container my-12 mx-auto overflow-hidden'>
+      <div className='container my-20 mx-auto overflow-hidden'>
         {snips.length && (
-          <h1 className='text-center mb-2 text-4xl text-white font-extrabold'>
+          <h1 className='text-center mb-4 text-4xl text-white font-extrabold'>
             {'<My Programs />'}
           </h1>
         )}
         <div className='flex flex-wrap -mx-1 lg:-mx-4'>
           <AddCodeSnip />
           <AddWebSnip />
+          <AddMkdSnip />
           {snips.map((s) => (
             <CodeSnip key={s.id} s={s} />
           ))}

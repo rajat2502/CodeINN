@@ -51,6 +51,9 @@ function Footer() {
         <Link to='/programming/new' className='text-lg hover:underline'>
           Programming IDE
         </Link>
+        <Link to='/mkd/new' className='text-lg hover:underline'>
+          Makrdown Previewer
+        </Link>
         <a
           className='text-lg hover:underline'
           href='https://app.slack.com/client/T01B912QLGY'

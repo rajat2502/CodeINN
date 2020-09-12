@@ -9,7 +9,14 @@
 
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![MIT License](https://img.shields.io/github/license/rajat2502/CodeINN)](https://github.com/rajat2502/CodeINN/blob/master/LICENSE)
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+[![Open Issues](https://img.shields.io/github/issues/rajat2502/CodeINN)](https://github.com/rajat2502/CodeINN/issues)
+[![Pull Requests](https://img.shields.io/github/issues-pr/rajat2502/CodeINN)](https://github.com/rajat2502/CodeINN/pulls)
+[![Tweet](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Frajat2502%2FCodeINN)](https://github.com/rajat2502/CodeINN)
+[![watchers](https://img.shields.io/github/watchers/rajat2502/CodeINN?style=social)](https://github.com/rajat2502/CodeINN/watchers)
+[![stars](https://img.shields.io/github/stars/rajat2502/CodeINN?style=social)](https://github.com/rajat2502/CodeINN/stargazers)
+[![forks](https://img.shields.io/github/forks/rajat2502/CodeINN?style=social)](https://github.com/rajat2502/CodeINN/network/members)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
@@ -126,7 +133,8 @@ $ python manage.py runserver
 </details>
 
 ## Slack Channel
-[https://join.slack.com/t/codeinnworkspace/shared_invite/zt-hncwfhlc-uZ48U49lBxBLKh_Xd1aXxQ](https://join.slack.com/t/codeinnworkspace/shared_invite/zt-hncwfhlc-uZ48U49lBxBLKh_Xd1aXxQ)
+[![chat on slack](https://img.shields.io/badge/chat-on%20slack-brightgreen)](https://join.slack.com/t/codeinnworkspace/shared_invite/zt-hncwfhlc-uZ48U49lBxBLKh_Xd1aXxQ)
+<!-- [https://join.slack.com/t/codeinnworkspace/shared_invite/zt-hncwfhlc-uZ48U49lBxBLKh_Xd1aXxQ](https://join.slack.com/t/codeinnworkspace/shared_invite/zt-hncwfhlc-uZ48U49lBxBLKh_Xd1aXxQ)-->
 
 ## Progress:
 - [x] Add Routes for login, signup, homepage

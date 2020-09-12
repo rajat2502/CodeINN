@@ -30,9 +30,6 @@ const Navbar = ({ user, setUser }) => {
           className='h-12'
           alt='CodeINN'
         />
-        <span className='font-normal text-lg'>
-          &nbsp; - &nbsp;an online code editor
-        </span>
       </Link>
       {!user.username ? (
         <Link
@@ -44,7 +41,7 @@ const Navbar = ({ user, setUser }) => {
       ) : (
         <div className='p-10'>
           <div className='dropdown inline-block relative'>
-            <button className='text-white text-lg font-bold py-2 px-4 inline-flex items-center'>
+            <button className='text-white text-lg font-bold py-2 px-6 inline-flex items-center'>
               <span className='mr-1'>
                 {JSON.parse(localStorage.getItem('user')) &&
                   JSON.parse(localStorage.getItem('user')).username}
@@ -74,6 +71,14 @@ const Navbar = ({ user, setUser }) => {
                   className='bg-gray-400 hover:bg-gray-300 py-2 px-4 block whitespace-no-wrap'
                 >
                   New Program
+                </Link>
+              </li>
+              <li className=''>
+                <Link
+                  to='/mkd/new'
+                  className='bg-gray-400 hover:bg-gray-300 py-2 px-4 block whitespace-no-wrap'
+                >
+                  New Markdown
                 </Link>
               </li>
               <li

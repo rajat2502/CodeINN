@@ -84,7 +84,24 @@ export const saveSnip = async (body) => {
   }
 };
 
+/**
+ *
+ * @param {string} username - the user's name whose programs have to be fetched
+ * @returns - the data object containing information and programs of a specific user
+ */
+export const getAllSnips = async (username) => {
+  try {
+    const url = `${apiUrl}/snip/user/${username}`;
+    const { data } = await axios.get(url);
+    return data;
+  } catch (err) {
+    console.log(err.response);
+  }
+};
+
+//
 // External API
+//
 
 /**
  *

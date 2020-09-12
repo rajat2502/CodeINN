@@ -7,6 +7,7 @@ import Signup from 'components/Signup';
 import Login from 'components/Login';
 import Dashboard from 'components/Dashboard';
 import WebEditor from 'components/WebEditor';
+import MarkDownPreviewer from 'components/MarkDownPreviewer';
 import ProgramEditor from 'components/ProgramEditor';
 
 function App() {
@@ -43,8 +44,10 @@ function App() {
           />
           <Route path='/dashboard' exact component={Dashboard} />
           <Route path='/web/new' exact component={WebEditor} />
+          <Route path='/mkd/new' exact component={MarkDownPreviewer} />
           <Route path='/programming/new' exact component={ProgramEditor} />
           <Route path='/web/:id' exact component={WebEditor} />
+          <Route path='/mkd/:id' exact component={MarkDownPreviewer} />
           <Route path='/programming/:id' exact component={ProgramEditor} />
         </Switch>
       </Router>

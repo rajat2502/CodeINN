@@ -1,15 +1,33 @@
 <div align="center"> <img align="center" alt="codeinn" src="https://user-images.githubusercontent.com/42115530/92988202-e29fcb80-f4e6-11ea-8464-40a6d0bd5297.png" height='100'></div>
 
+<br /><br />
+# CodeINN
+[CodeINN](https://codeinn.netlify.app/) is an instant code editor :page_with_curl:, that makes programming and development easier. Practice quickly and directly from your web browser, without any setup needed. CodeINN gives the perfect environment to developers :man_technologist: , coders :computer: , and geeks :nerd_face: to do more with their tech.
 
-<br /><br />
-CodeINN is an instant code editor :page_with_curl:, that makes programming and development easier. Practice quickly and directly from your web browser, without any setup needed. CodeINN gives the perfect environment to developers :man_technologist: , coders :computer: , and geeks :nerd_face: to do more with their tech.
-<br /><br />
+> See Hosted Version [Here](https://codeinn.netlify.app/)
+
 
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+## Features
+- **Single Platform** for web development and programming, without the need for constantly switching tools
+- **live preview** of the code changes
+- **Syntax higlighting, bracket matching, code formatting and autocompletion**
+- Easy save, share, reset or delete options
+- Lightweight and fast
+- Supports **C, C++, Python, HTML, CSS, JS**
+
+## Browser Support
+- **Firefox**:	version 4 and up
+- **Chrome**:	any version
+- **Safari**:	version 5.2 and up
+- **Internet Explorer/Edge**:	version 8 and up
+- **Opera**:	version 9 and up
+> **Note**: Support for modern mobile browsers is experimental. The website is not responsive in mobile devices until now.
 
 ## Technology Stack to be used:
 - **Frontend**: ReactJS, React-Hooks, React-Codemirror-2
@@ -35,9 +53,9 @@ CodeINN is an instant code editor :page_with_curl:, that makes programming and d
 
 #### Setup
 
-> **Frontend Setup Instructions**
+
 <details>
-  <summary>Click to expand!</summary>
+  <summary><strong>Frontend Setup Instructions</strong></summary>
   
   
 - Fork and Clone the repo using
@@ -61,9 +79,9 @@ $ npm start
   
 </details>
 
-> **Backend Setup Instructions**
+
 <details>
-  <summary>Click to expand!</summary>
+  <summary><strong>Backend Setup Instructions</strong></summary>
 
 - Fork and Clone the repo using
 ```

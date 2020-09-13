@@ -15,6 +15,7 @@
 [![watchers](https://img.shields.io/github/watchers/rajat2502/CodeINN?style=social)](https://github.com/rajat2502/CodeINN/watchers)
 [![stars](https://img.shields.io/github/stars/rajat2502/CodeINN?style=social)](https://github.com/rajat2502/CodeINN/stargazers)
 [![forks](https://img.shields.io/github/forks/rajat2502/CodeINN?style=social)](https://github.com/rajat2502/CodeINN/network/members)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frajat2502%2FCodeINN.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Frajat2502%2FCodeINN?ref=badge_shield)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
@@ -285,6 +286,9 @@ $ python manage.py runserver
   
 </details>
 
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frajat2502%2FCodeINN.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frajat2502%2FCodeINN?ref=badge_large)
+
 ## Slack Channel
 [![chat on slack](https://img.shields.io/badge/chat-on%20slack-brightgreen)](https://join.slack.com/t/codeinnworkspace/shared_invite/zt-hncwfhlc-uZ48U49lBxBLKh_Xd1aXxQ)
 <!-- [https://join.slack.com/t/codeinnworkspace/shared_invite/zt-hncwfhlc-uZ48U49lBxBLKh_Xd1aXxQ](https://join.slack.com/t/codeinnworkspace/shared_invite/zt-hncwfhlc-uZ48U49lBxBLKh_Xd1aXxQ)-->
@@ -338,5 +342,4 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 
 [![Uses Git](https://forthebadge.com/images/badges/uses-git.svg)](https://github.com/rajat2502/CodeINN/) [![Uses HTML](https://forthebadge.com/images/badges/uses-html.svg)](https://github.com/rajat2502/CodeINN/) [![Uses CSS](https://forthebadge.com/images/badges/uses-css.svg)](https://github.com/rajat2502/CodeINN/) [![Uses JS](https://forthebadge.com/images/badges/uses-js.svg)](https://github.com/rajat2502/CodeINN/)
-[![Built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/rajat2502/CodeINN) [![Built By Developers](https://forthebadge.com/images/badges/built-by-developers.svg)](https://github.com/rajat2502/CodeINN) 
-
+[![Built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/rajat2502/CodeINN) [![Built By Developers](https://forthebadge.com/images/badges/built-by-developers.svg)](https://github.com/rajat2502/CodeINN)

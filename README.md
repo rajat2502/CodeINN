@@ -352,6 +352,14 @@ $ python manage.py runserver
 | 2. | Rajat Verma | Frontend Developer| [@rajat2502](https://github.com/rajat2502)  |
 | 3. | Shristi Singh | UI Designer/Frontend Developer | [@shristisingh29](https://github.com/shristisingh29)  |
 
+
+## FossHack2020
+> This project was made within the span of 2 days under FossHack2020 Hackathon
+
+<a href="https://fossunited.org/hackathon" target="_blank" rel="noopener">
+<img src="https://iili.io/2q8IVt.png" alt='FossHack2020' width='500' height='300'>
+</a>
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
@@ -367,9 +375,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
 </tbody></table>
 
-
-## FossHack2020
-> This project was made within the span of 2 days under FossHack2020 Hackathon
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->

@@ -105,6 +105,12 @@ $ cd CodeINN
 ```
 $ git checkout frontend
 ```
+- Get the API key from [https://api.imgbb.com/](https://api.imgbb.com/) and replace it with `REACT_APP_IMGBB_API_KEY`
+
+- Get a new API key from [https://docs.rapidapi.com/docs/keys](https://docs.rapidapi.com/docs/keys) and replace it with `REACT_APP_RAPID_API_KEY`
+
+- Rename the file `.env/example` to `.env`
+
 - Install node dependencies
 ```
 $ npm install

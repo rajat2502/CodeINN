@@ -320,9 +320,22 @@ $ python manage.py runserver
     <td align="center"><a href="https://codemirror.net/"><img alt="" src="https://codemirror.net/doc/logo.png" width=150px height=150px ><br><sub><b>Code Mirror</b></sub></a><br><a href="https://github.com/codemirror/CodeMirror" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/judge0/judge0"><img alt="" src="https://avatars1.githubusercontent.com/u/25365178?s=200&v=4" width=150px height=150px ><br><sub><b>Judge0 API</b></sub></a><br><a href="https://github.com/judge0/judge0" title="Code">:technologist:</a></td>
     <td align="center"><a href="https://imgbb.com/"><img alt="" src="https://iili.io/2qkMIS.png" width=150px height=150px ><br><sub><b>ImgBB API</b></sub></a><br><a href="https://imgbb.com/" title="Design">🎨</a></td>
-        <td align="center"><a href="https://fossunited.org/hackathon"><img alt="" src="https://iili.io/2qvTaj.png" width=120px height=100px ><br><sub><b>FossHack2020</b></sub></a><br><a href="https://fossunited.org/hackathon" title="Hackathon">:earth_africa:</a></td>
+            <td align="center"><a href="https://www.heroku.com/"><img alt="" src="https://avatars3.githubusercontent.com/u/23211?s=200&v=4" width=150px height=150px ><br><sub><b>Heroku</b></sub></a><br><a href="https://www.heroku.com/" title="Hosting">:rocket:</a></td>
+            <td align="center"><a href="https://www.netlify.com/"><img alt="" src="https://avatars0.githubusercontent.com/u/7892489?s=200&v=4" width=150px height=150px ><br><sub><b>Netlify</b></sub></a><br><a href="https://www.netlify.com/" title="Hosting">:rocket:</a></td>
+<td align="center"><a href="https://fossunited.org/hackathon"><img alt="" src="https://avatars1.githubusercontent.com/u/61445214?s=200&v=4" width=150px height=150px ><br><sub><b>FossHack2020</b></sub></a><br><a href="https://fossunited.org/hackathon" title="Hackathon">:earth_africa:</a></td>
   </tr>
 </tbody></table>
+
+
+## Future Prospects:
+
+- [ ] Add more views in Web like full-screen view, Editor view, etc
+- [ ] Add support for more programming languages in programming mode
+- [ ] GitHub integrations for creating the repository
+- [ ] Hosting the web snippet on a suitable hosting platform
+- [ ] Feature to fork the programs in all views/modes
+- [ ] Add compatibility to popular web frameworks
+- [ ] Grow the community size and create beginner-friendly issues
 
 
 ## Team:

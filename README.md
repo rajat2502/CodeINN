@@ -1,4 +1,4 @@
-<div align="center"> <img align="center" alt="codeinn" src="https://user-images.githubusercontent.com/42115530/92988202-e29fcb80-f4e6-11ea-8464-40a6d0bd5297.png" height='85' width='450'></div>
+<div align="center"> <img align="center" alt="codeinn" src="https://user-images.githubusercontent.com/42115530/92988202-e29fcb80-f4e6-11ea-8464-40a6d0bd5297.png" height='80' width='400'></div>
 
 <br /><br />
 # CodeINN
@@ -23,7 +23,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Features
-- **Single Platform** for web development and programming, without the need for constantly switching tools
+- **Single Platform** for web development, programming and markdown, without the need for constantly switching tools
 - **live preview** of the code changes
 - **Syntax higlighting, bracket matching, code formatting and autocompletion**
 - Easy save, share, reset or delete options
@@ -320,6 +320,7 @@ $ python manage.py runserver
     <td align="center"><a href="https://codemirror.net/"><img alt="" src="https://codemirror.net/doc/logo.png" width=150px height=150px ><br><sub><b>Code Mirror</b></sub></a><br><a href="https://github.com/codemirror/CodeMirror" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/judge0/judge0"><img alt="" src="https://avatars1.githubusercontent.com/u/25365178?s=200&v=4" width=150px height=150px ><br><sub><b>Judge0 API</b></sub></a><br><a href="https://github.com/judge0/judge0" title="Code">:technologist:</a></td>
     <td align="center"><a href="https://imgbb.com/"><img alt="" src="https://iili.io/2qkMIS.png" width=150px height=150px ><br><sub><b>ImgBB API</b></sub></a><br><a href="https://imgbb.com/" title="Design">🎨</a></td>
+        <td align="center"><a href="https://fossunited.org/hackathon"><img alt="" src="https://iili.io/2qvTaj.png" width=120px height=100px ><br><sub><b>FossHack2020</b></sub></a><br><a href="https://fossunited.org/hackathon" title="Hackathon">:earth_africa:</a></td>
   </tr>
 </tbody></table>
 

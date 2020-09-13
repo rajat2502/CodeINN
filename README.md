@@ -286,13 +286,6 @@ $ python manage.py runserver
   
 </details>
 
-
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frajat2502%2FCodeINN.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frajat2502%2FCodeINN?ref=badge_large)
-
-## Slack Channel
-[![chat on slack](https://img.shields.io/badge/chat-on%20slack-brightgreen)](https://join.slack.com/t/codeinnworkspace/shared_invite/zt-hncwfhlc-uZ48U49lBxBLKh_Xd1aXxQ)
-<!-- [https://join.slack.com/t/codeinnworkspace/shared_invite/zt-hncwfhlc-uZ48U49lBxBLKh_Xd1aXxQ](https://join.slack.com/t/codeinnworkspace/shared_invite/zt-hncwfhlc-uZ48U49lBxBLKh_Xd1aXxQ)-->
-
 ## Progress:
 - [x] Add Routes for login, signup, homepage
 - [x] Add Routes for dashboard, web editor and program editor
@@ -319,6 +312,10 @@ $ python manage.py runserver
 | 2. | Rajat Verma | Frontend Developer| [@rajat2502](https://github.com/rajat2502)  |
 | 3. | Shristi Singh | UI Designer | [@shristisingh29](https://github.com/shristisingh29)  |
 
+## Slack Channel
+[![chat on slack](https://img.shields.io/badge/chat-on%20slack-brightgreen)](https://join.slack.com/t/codeinnworkspace/shared_invite/zt-hncwfhlc-uZ48U49lBxBLKh_Xd1aXxQ)
+<!-- [https://join.slack.com/t/codeinnworkspace/shared_invite/zt-hncwfhlc-uZ48U49lBxBLKh_Xd1aXxQ](https://join.slack.com/t/codeinnworkspace/shared_invite/zt-hncwfhlc-uZ48U49lBxBLKh_Xd1aXxQ)-->
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
@@ -339,6 +336,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frajat2502%2FCodeINN.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frajat2502%2FCodeINN?ref=badge_large)
 
 
 [![Uses Git](https://forthebadge.com/images/badges/uses-git.svg)](https://github.com/rajat2502/CodeINN/) [![Uses HTML](https://forthebadge.com/images/badges/uses-html.svg)](https://github.com/rajat2502/CodeINN/) [![Uses CSS](https://forthebadge.com/images/badges/uses-css.svg)](https://github.com/rajat2502/CodeINN/) [![Uses JS](https://forthebadge.com/images/badges/uses-js.svg)](https://github.com/rajat2502/CodeINN/)

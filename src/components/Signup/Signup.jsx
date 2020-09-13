@@ -12,6 +12,7 @@ function Signup({ user, setUser }) {
   const [password1, setpassword1] = useState('');
   const [password2, setpassword2] = useState('');
   const [requesting, setRequesting] = useState(false);
+  const [error, setError] = useState('');
 
   /**
    * @param {object} e - This is the form submit event for signup
@@ -23,10 +24,14 @@ function Signup({ user, setUser }) {
     setRequesting(true);
     const data = await signUp({ username, email, password1, password2 });
     if (!data.error) {
-      setUser(username);
-      setRequesting(false);
+      setUser({ username });
       history.push('/dashboard');
+    } else {
+      setError(
+        "Please make sure the password is not easy to hack and the user doesn't exist!"
+      );
     }
+    setRequesting(false);
   };
 
   if (user.username) return <Redirect to='/dashboard' />;
@@ -86,6 +91,7 @@ function Signup({ user, setUser }) {
                       {requesting ? 'Signing Up...' : 'Sign Up'}
                     </button>
                   </form>
+                  {error && <p className='text-red-600'>{error}</p>}
                   <Link to='/login'>
                     <p className='text-white'>Already have an account?</p>
                   </Link>

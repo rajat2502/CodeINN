@@ -11,6 +11,7 @@ function Login({ user, setUser }) {
   const [email, setemail] = useState('');
   const [password, setpassword] = useState('');
   const [requesting, setRequesting] = useState(false);
+  const [error, setError] = useState('');
 
   /**
    * @param {object} e - This is the form submit event for login
@@ -23,11 +24,14 @@ function Login({ user, setUser }) {
     const data = await login({ username, email, password });
     if (!data.error) {
       setUser({ username });
-      setRequesting(false);
       history.push('/dashboard');
+    } else {
+      setError('Please make sure the credentials are correct!');
     }
+    setRequesting(false);
   };
 
+  // if already logged in, Redirect to dashboard
   if (user.username) return <Redirect to='/dashboard' />;
 
   return (
@@ -80,6 +84,7 @@ function Login({ user, setUser }) {
                       {requesting ? 'Logging In...' : 'Login'}
                     </button>
                   </form>
+                  {error && <p className='text-red-600'>{error}</p>}
                   <Link to='/signup'>
                     <p className='text-white'>Don't have an account?</p>
                   </Link>

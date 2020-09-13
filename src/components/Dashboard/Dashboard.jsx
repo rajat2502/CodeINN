@@ -67,7 +67,7 @@ function Dashboard() {
       </div>
 
       <div className='container my-20 mx-auto overflow-hidden'>
-        {snips.length && (
+        {snips.length > 0 && (
           <h1 className='text-center mb-4 text-4xl text-white font-extrabold'>
             {'<My Programs />'}
           </h1>

@@ -14,9 +14,11 @@ function ProgramEditor() {
   const history = useHistory();
   const { id } = useParams();
 
+  // states for the modal
   const [modal, showModal, hideModal] = useModal();
   const [modalContent, setModalContent] = useState('');
 
+  // local states
   const [mode, setMode] = useState('');
   const [languageId, setLanguageId] = useState();
   const [value, setValue] = useState('');
@@ -28,6 +30,9 @@ function ProgramEditor() {
   const [title, setTitle] = useState('');
   const [loading, setLoading] = useState(false);
 
+  /**
+   * this function sets the content for the save modal
+   */
   const showSaveModal = useCallback(() => {
     if (value !== '') {
       setModalContent({
@@ -39,6 +44,9 @@ function ProgramEditor() {
     }
   }, [value, id, showModal]);
 
+  /**
+   * this function sets the content for the reset modal
+   */
   const showResetModal = useCallback(() => {
     setModalContent({
       title: 'Reset Program?',
@@ -48,6 +56,10 @@ function ProgramEditor() {
     showModal();
   }, [showModal]);
 
+  /**
+   * @param {bool} reset - reset md if true
+   * This function is used to save the markdown value to the database
+   */
   const saveToDB = async (reset = false) => {
     setRequesting(true);
     const slug = fileName ? convertToSlug(fileName) : id;
@@ -74,6 +86,9 @@ function ProgramEditor() {
     }
   };
 
+  /**
+   * This function is used to reset the markdown value saved in the database
+   */
   const reset = async () => {
     setRequesting(true);
     const slug = fileName ? convertToSlug(fileName) : id;
@@ -102,6 +117,9 @@ function ProgramEditor() {
     setValue(languages.find((l) => l.id === languageId).code);
   };
 
+  /**
+   * This function is used to set the handler function
+   */
   const keyDownHandler = useCallback(
     (e) => {
       const cmdKey = window.navigator.platform.match('Mac')
@@ -135,6 +153,7 @@ function ProgramEditor() {
     };
   }, [keyDownHandler]);
 
+  // change the languages and sets the states accordingly
   const changeLang = useCallback(
     (lang) => {
       if (!id) {
@@ -155,6 +174,7 @@ function ProgramEditor() {
     [hideModal, id, showModal]
   );
 
+  // function to run the programming code
   const compileAndRun = async () => {
     setResult({});
     const body = {
@@ -168,6 +188,7 @@ function ProgramEditor() {
     setCompiling(false);
   };
 
+  // get the program from the DB if id is present
   const getProgram = useCallback(async () => {
     setLoading(true);
     const data = await getSnip(id);

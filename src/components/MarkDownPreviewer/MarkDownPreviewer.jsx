@@ -14,8 +14,10 @@ function MarkDownPreviewer() {
   const { id } = useParams();
   const history = useHistory();
 
+  // Iframe ref container for the html preview
   const iframeRef = useRef(null);
 
+  // local states
   const [md, setMd] = useState('');
   const [fileName, setFileName] = useState('README.md');
   const [output, setOutput] = useState(parseMd(defaultMD()));
@@ -23,9 +25,13 @@ function MarkDownPreviewer() {
   const [title, setTitle] = useState('');
   const [loading, setLoading] = useState(true);
 
+  // states for modal
   const [modal, showModal, hideModal] = useModal();
   const [modalContent, setModalContent] = useState('');
 
+  /**
+   * this function sets the content for the save modal
+   */
   const showSaveModal = useCallback(() => {
     if (md !== '') {
       setModalContent({
@@ -37,6 +43,9 @@ function MarkDownPreviewer() {
     }
   }, [md, id, showModal]);
 
+  /**
+   * this function sets the content for the reset modal
+   */
   const showResetModal = useCallback(() => {
     setModalContent({
       title: 'Reset Markdown?',
@@ -46,6 +55,10 @@ function MarkDownPreviewer() {
     showModal();
   }, [showModal]);
 
+  /**
+   * @param {bool} reset - reset md if true
+   * This function is used to save the markdown value to the database
+   */
   const saveToDB = async (reset = false) => {
     setRequesting(true);
     const slug = fileName ? convertToSlug(fileName) : id;
@@ -72,6 +85,9 @@ function MarkDownPreviewer() {
     }
   };
 
+  /**
+   * This function is used to reset the markdown value saved in the database
+   */
   const reset = async () => {
     setRequesting(true);
     const slug = fileName ? convertToSlug(fileName) : id;
@@ -98,6 +114,9 @@ function MarkDownPreviewer() {
     }
   };
 
+  /**
+   * This function is used to fetch the snip on the basis of the id of the page
+   */
   const fetchSnip = useCallback(async () => {
     setLoading(true);
     const data = await getSnip(id);
@@ -108,6 +127,9 @@ function MarkDownPreviewer() {
     setTimeout(() => setOutput(parseMd(data.content)), 10);
   }, [id]);
 
+  /**
+   * This function is used to set the handler function
+   */
   const keyDownHandler = useCallback(
     (e) => {
       const cmdKey = window.navigator.platform.match('Mac')

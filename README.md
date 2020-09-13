@@ -9,6 +9,7 @@
 
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![HitCount](http://hits.dwyl.com/rajat2502/CodeINN.svg)](http://hits.dwyl.com/rajat2502/CodeINN)
 [![MIT License](https://img.shields.io/github/license/rajat2502/CodeINN)](https://github.com/rajat2502/CodeINN/blob/master/LICENSE)
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 [![Open Issues](https://img.shields.io/github/issues/rajat2502/CodeINN)](https://github.com/rajat2502/CodeINN/issues)
@@ -17,6 +18,7 @@
 [![watchers](https://img.shields.io/github/watchers/rajat2502/CodeINN?style=social)](https://github.com/rajat2502/CodeINN/watchers)
 [![stars](https://img.shields.io/github/stars/rajat2502/CodeINN?style=social)](https://github.com/rajat2502/CodeINN/stargazers)
 [![forks](https://img.shields.io/github/forks/rajat2502/CodeINN?style=social)](https://github.com/rajat2502/CodeINN/network/members)
+
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
@@ -50,7 +52,27 @@
 - **Database**: Sqllite3
 - **Hosting**: Heroku, Netlify
 
+## Links:
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/3023eb862bb9b0f8a287)
+[![Code Quality](https://img.shields.io/badge/code%20quality-A-brightgreen)](https://github.com/rajat2502/CodeINN)
+[![Code Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)](https://github.com/rajat2502/CodeINN)
+[![Build Passing](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/rajat2502/CodeINN)
+- **Frontend**: [https://codeinn.netlify.app/](https://codeinn.netlify.app/)
+- **Backend**: [https://codeinn.herokuapp.com/](https://codeinn.herokuapp.com/)
+- **Postman Collection**: [https://app.getpostman.com/run-collection/3023eb862bb9b0f8a287](https://app.getpostman.com/run-collection/3023eb862bb9b0f8a287)
+- **Postman Docs**: [https://documenter.getpostman.com/view/10608582/TVCmRjz6](https://documenter.getpostman.com/view/10608582/TVCmRjz6)
+
+
 ### How to Get Started?
+
+[![Dependencies Up to date](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen)](https://github.com/rajat2502/CodeINN/blob/master/package-lock.json)
+[![Requirements Up To Date](https://img.shields.io/badge/requirements-up%20to%20date-brightgreen)](https://github.com/rajat2502/CodeINN/blob/backend/requirements.txt)
+[![Node](https://img.shields.io/badge/node%40latest-%3E%3D%206.0.0-brightgreen)](https://nodejs.org/en/)
+[![NPM](https://img.shields.io/npm/v/npm/latest)](https://www.npmjs.com/)
+[![ESLint](https://img.shields.io/badge/eslint-%5E3.0.0-blue)](https://eslint.org/)
+[![Python](https://img.shields.io/badge/python-v3.7-blue)](https://www.python.org/)
+[![Django](https://img.shields.io/badge/django%20versions-1.11%20%7C%202.0%20%7C%202.1-blue)](https://www.djangoproject.com/)
+
 
 #### GitHub Repository Structure
 
@@ -291,20 +313,9 @@ $ python manage.py runserver
 [![chat on slack](https://img.shields.io/badge/chat-on%20slack-brightgreen)](https://join.slack.com/t/codeinnworkspace/shared_invite/zt-hncwfhlc-uZ48U49lBxBLKh_Xd1aXxQ)
 <!-- [https://join.slack.com/t/codeinnworkspace/shared_invite/zt-hncwfhlc-uZ48U49lBxBLKh_Xd1aXxQ](https://join.slack.com/t/codeinnworkspace/shared_invite/zt-hncwfhlc-uZ48U49lBxBLKh_Xd1aXxQ)-->
 
-## Progress:
-- [x] Add Routes for login, signup, homepage
-- [ ] Add Routes for dashboard, web editor and program editor
-- [x] Integrate login and signup APIs
-- [ ] Add Image hosting feature to web editor
-- [ ] Add shortcuts to web editor
-- [ ] Integrate save pen APIs in Web Editor
-- [ ] Add language support for some common lanaguges in programming editor (IDE)
-- [ ] Integrate Compiler API in IDE
-- [ ] Integrate save program API for IDE
-
 ## Team:
 
-> Team Members
+> "Alone we can do so little; together we can do so much."
 
 | S.No. | Name | Role | GitHub Username:octocat: |
 | --------------- | --------------- | --------------- | --------------- |

@@ -30,6 +30,12 @@
 - Lightweight and fast
 - Supports **C, C++, Python, HTML, CSS, JS**
 
+## Demo Video
+<a href="https://youtu.be/xdtb31djE1Y" target="_blank" rel="noopener">
+  <img src="https://i9.ytimg.com/vi_webp/xdtb31djE1Y/mqdefault.webp?sqp=CKy7-PoF&rs=AOn4CLAtWVB9XKyymMx283Nz9EobPYl2-g" alt="CodeINN an online code editor"
+	title="CodeINN" width="400px" />
+</a>
+
 ## Browser Support
 - **Firefox**:	version 4 and up
 - **Chrome**:	any version
@@ -317,12 +323,10 @@ $ python manage.py runserver
                                                                                                                                      
 <table>
   <tbody><tr>
-    <td align="center"><a href="https://codemirror.net/"><img alt="" src="https://codemirror.net/doc/logo.png" width=150px height=150px ><br><sub><b>Code Mirror</b></sub></a><br><a href="https://github.com/codemirror/CodeMirror" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/scniro/react-codemirror2"><img alt="" src="https://codemirror.net/doc/logo.png" width=150px height=150px ><br><sub><b>Code Mirror</b></sub></a><br><a href="https://github.com/scniro/react-codemirror2" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/judge0/judge0"><img alt="" src="https://avatars1.githubusercontent.com/u/25365178?s=200&v=4" width=150px height=150px ><br><sub><b>Judge0 API</b></sub></a><br><a href="https://github.com/judge0/judge0" title="Code">:technologist:</a></td>
-    <td align="center"><a href="https://imgbb.com/"><img alt="" src="https://iili.io/2qkMIS.png" width=150px height=150px ><br><sub><b>ImgBB API</b></sub></a><br><a href="https://imgbb.com/" title="Design">🎨</a></td>
-            <td align="center"><a href="https://www.heroku.com/"><img alt="" src="https://avatars3.githubusercontent.com/u/23211?s=200&v=4" width=150px height=150px ><br><sub><b>Heroku</b></sub></a><br><a href="https://www.heroku.com/" title="Hosting">:rocket:</a></td>
-            <td align="center"><a href="https://www.netlify.com/"><img alt="" src="https://avatars0.githubusercontent.com/u/7892489?s=200&v=4" width=150px height=150px ><br><sub><b>Netlify</b></sub></a><br><a href="https://www.netlify.com/" title="Hosting">:rocket:</a></td>
 <td align="center"><a href="https://fossunited.org/hackathon"><img alt="" src="https://avatars1.githubusercontent.com/u/61445214?s=200&v=4" width=150px height=150px ><br><sub><b>FossHack2020</b></sub></a><br><a href="https://fossunited.org/hackathon" title="Hackathon">:earth_africa:</a></td>
+        <td align="center"><a href="https://imgbb.com/"><img alt="" src="https://iili.io/2qkMIS.png" width=150px height=150px ><br><sub><b>ImgBB API</b></sub></a><br><a href="https://imgbb.com/" title="Design">🎨</a></td>
   </tr>
 </tbody></table>
 
@@ -362,6 +366,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/shristisingh29"><img alt="" src="https://avatars1.githubusercontent.com/u/44435610?v=4" width="100px;"><br><sub><b>Shristi Singh</b></sub></a><br><a href="#design-shristisingh29" title="Design">🎨</a></td>
   </tr>
 </tbody></table>
+
+
+## FossHack2020
+> This project was made within the span of 2 days under FossHack2020 Hackathon
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->

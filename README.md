@@ -105,11 +105,11 @@ $ cd CodeINN
 ```
 $ git checkout frontend
 ```
-- Get the API key from [https://api.imgbb.com/](https://api.imgbb.com/) and replace it with `REACT_APP_IMGBB_API_KEY`
+- Get the API key from [https://api.imgbb.com/](https://api.imgbb.com/) and replace it with `REACT_APP_IMGBB_API_KEY` in `.env.example`
 
-- Get a new API key from [https://docs.rapidapi.com/docs/keys](https://docs.rapidapi.com/docs/keys) and replace it with `REACT_APP_RAPID_API_KEY`
+- Get a new API key from [https://docs.rapidapi.com/docs/keys](https://docs.rapidapi.com/docs/keys) and replace it with `REACT_APP_RAPID_API_KEY` in `.env.example`
 
-- Rename the file `.env/example` to `.env`
+- Rename the file `.env.example` to `.env`
 
 - Install node dependencies
 ```
@@ -331,7 +331,7 @@ $ python manage.py runserver
   <tbody><tr>
     <td align="center"><a href="https://github.com/scniro/react-codemirror2"><img alt="" src="https://codemirror.net/doc/logo.png" width=150px height=150px ><br><sub><b>Code Mirror</b></sub></a><br><a href="https://github.com/scniro/react-codemirror2" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/judge0/judge0"><img alt="" src="https://avatars1.githubusercontent.com/u/25365178?s=200&v=4" width=150px height=150px ><br><sub><b>Judge0 API</b></sub></a><br><a href="https://github.com/judge0/judge0" title="Code">:technologist:</a></td>
-<td align="center"><a href="https://fossunited.org/hackathon"><img alt="" src="https://avatars1.githubusercontent.com/u/61445214?s=200&v=4" width=150px height=150px ><br><sub><b>FossHack2020</b></sub></a><br><a href="https://fossunited.org/hackathon" title="Hackathon">:earth_africa:</a></td>
+<td align="center"><a href="https://fossunited.org/hackathon"><img alt="" src="https://avatars1.githubusercontent.com/u/61445214?s=200&v=4" width=150px height=150px ><br><sub><b>FossUnited.Org</b></sub></a><br><a href="https://fossunited.org/hackathon" title="Hackathon">:earth_africa:</a></td>
         <td align="center"><a href="https://imgbb.com/"><img alt="" src="https://iili.io/2qkMIS.png" width=150px height=150px ><br><sub><b>ImgBB API</b></sub></a><br><a href="https://imgbb.com/" title="Design">🎨</a></td>
   </tr>
 </tbody></table>

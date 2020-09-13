@@ -1,7 +1,7 @@
 /* import proxima nova */
 @font-face {
   font-family: proximaNova;
-  src: url('../assets/fonts/ProximaNovaRegular.ttf');
+  src: url("../assets/fonts/ProximaNovaRegular.ttf");
 }
 
 body {

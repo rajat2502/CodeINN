@@ -1,4 +1,4 @@
-<div align="center"> <img align="center" alt="codeinn" src="https://user-images.githubusercontent.com/42115530/92988202-e29fcb80-f4e6-11ea-8464-40a6d0bd5297.png" height='100'></div>
+<div align="center"> <img align="center" alt="codeinn" src="https://user-images.githubusercontent.com/42115530/92988202-e29fcb80-f4e6-11ea-8464-40a6d0bd5297.png" height='80' width='400'></div>
 
 <br /><br />
 # CodeINN
@@ -6,7 +6,10 @@
 
 > See Hosted Version [Here](https://codeinn.netlify.app/)
 
+
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![HitCount](http://hits.dwyl.com/rajat2502/CodeINN.svg)](http://hits.dwyl.com/rajat2502/CodeINN)
 [![MIT License](https://img.shields.io/github/license/rajat2502/CodeINN)](https://github.com/rajat2502/CodeINN/blob/master/LICENSE)
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 [![Open Issues](https://img.shields.io/github/issues/rajat2502/CodeINN)](https://github.com/rajat2502/CodeINN/issues)
@@ -16,15 +19,22 @@
 [![stars](https://img.shields.io/github/stars/rajat2502/CodeINN?style=social)](https://github.com/rajat2502/CodeINN/stargazers)
 [![forks](https://img.shields.io/github/forks/rajat2502/CodeINN?style=social)](https://github.com/rajat2502/CodeINN/network/members)
 
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Features
-- **Single Platform** for web development and programming, without the need for constantly switching tools
+- **Single Platform** for web development, programming and markdown, without the need for constantly switching tools
 - **live preview** of the code changes
 - **Syntax higlighting, bracket matching, code formatting and autocompletion**
 - Easy save, share, reset or delete options
 - Lightweight and fast
 - Supports **C, C++, Python, HTML, CSS, JS**
+
+## Demo Video
+<a href="https://youtu.be/xdtb31djE1Y" target="_blank" rel="noopener">
+  <img src="https://i9.ytimg.com/vi_webp/xdtb31djE1Y/mqdefault.webp?sqp=CKy7-PoF&rs=AOn4CLAtWVB9XKyymMx283Nz9EobPYl2-g" alt="CodeINN an online code editor"
+	title="CodeINN" width="400px" />
+</a>
 
 ## Browser Support
 - **Firefox**:	version 4 and up
@@ -32,7 +42,7 @@
 - **Safari**:	version 5.2 and up
 - **Internet Explorer/Edge**:	version 8 and up
 - **Opera**:	version 9 and up
-> **Note**: Support for modern mobile browsers is experimental. The application is not responsive in mobile devices until now.
+> **Note**: Support for modern mobile browsers is experimental. The website is not responsive in mobile devices until now.
 
 ## Technology Stack to be used:
 
@@ -48,7 +58,27 @@
 - **Database**: Sqllite3
 - **Hosting**: Heroku, Netlify
 
+## Links:
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/3023eb862bb9b0f8a287)
+[![Code Quality](https://img.shields.io/badge/code%20quality-A-brightgreen)](https://github.com/rajat2502/CodeINN)
+[![Code Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)](https://github.com/rajat2502/CodeINN)
+[![Build Passing](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/rajat2502/CodeINN)
+- **Frontend**: [https://codeinn.netlify.app/](https://codeinn.netlify.app/)
+- **Backend**: [https://codeinn.herokuapp.com/](https://codeinn.herokuapp.com/)
+- **Postman Collection**: [https://app.getpostman.com/run-collection/3023eb862bb9b0f8a287](https://app.getpostman.com/run-collection/3023eb862bb9b0f8a287)
+- **Postman Docs**: [https://documenter.getpostman.com/view/10608582/TVCmRjz6](https://documenter.getpostman.com/view/10608582/TVCmRjz6)
+
+
 ### How to Get Started?
+
+[![Dependencies Up to date](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen)](https://github.com/rajat2502/CodeINN/blob/master/package-lock.json)
+[![Requirements Up To Date](https://img.shields.io/badge/requirements-up%20to%20date-brightgreen)](https://github.com/rajat2502/CodeINN/blob/backend/requirements.txt)
+[![Node](https://img.shields.io/badge/node%40latest-%3E%3D%206.0.0-brightgreen)](https://nodejs.org/en/)
+[![NPM](https://img.shields.io/npm/v/npm/latest)](https://www.npmjs.com/)
+[![ESLint](https://img.shields.io/badge/eslint-%5E3.0.0-blue)](https://eslint.org/)
+[![Python](https://img.shields.io/badge/python-v3.7-blue)](https://www.python.org/)
+[![Django](https://img.shields.io/badge/django%20versions-1.11%20%7C%202.0%20%7C%202.1-blue)](https://www.djangoproject.com/)
+
 
 #### GitHub Repository Structure
 
@@ -285,35 +315,50 @@ $ python manage.py runserver
   
 </details>
 
-## Progress:
-- [x] Add Routes for login, signup, homepage
-- [x] Add Routes for dashboard, web editor and program editor
-- [x] Integrate login and signup APIs
-- [x] Add Image hosting feature to web editor
-- [x] Add shortcuts to web editor
-- [x] Integrate save pen APIs in Web Editor
-- [x] Integrate All Snips API and Dashboard UI
-- [x] Add Makrdown previewer
-- [x] Integrate save program API for Markdown Previewer
-- [ ] Add Programming IDE UI
-- [ ] Add language support for some common lanaguges in programming editor (IDE)
-- [ ] Integrate Compiler API in IDE
-- [ ] Integrate save program API for IDE
+## Slack Channel
+[![chat on slack](https://img.shields.io/badge/chat-on%20slack-brightgreen)](https://join.slack.com/t/codeinnworkspace/shared_invite/zt-hncwfhlc-uZ48U49lBxBLKh_Xd1aXxQ)
+<!-- [https://join.slack.com/t/codeinnworkspace/shared_invite/zt-hncwfhlc-uZ48U49lBxBLKh_Xd1aXxQ](https://join.slack.com/t/codeinnworkspace/shared_invite/zt-hncwfhlc-uZ48U49lBxBLKh_Xd1aXxQ)-->
+
+## Special Thanks To:
+                                                                                                                                     
+<table>
+  <tbody><tr>
+    <td align="center"><a href="https://github.com/scniro/react-codemirror2"><img alt="" src="https://codemirror.net/doc/logo.png" width=150px height=150px ><br><sub><b>Code Mirror</b></sub></a><br><a href="https://github.com/scniro/react-codemirror2" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/judge0/judge0"><img alt="" src="https://avatars1.githubusercontent.com/u/25365178?s=200&v=4" width=150px height=150px ><br><sub><b>Judge0 API</b></sub></a><br><a href="https://github.com/judge0/judge0" title="Code">:technologist:</a></td>
+<td align="center"><a href="https://fossunited.org/hackathon"><img alt="" src="https://avatars1.githubusercontent.com/u/61445214?s=200&v=4" width=150px height=150px ><br><sub><b>FossHack2020</b></sub></a><br><a href="https://fossunited.org/hackathon" title="Hackathon">:earth_africa:</a></td>
+        <td align="center"><a href="https://imgbb.com/"><img alt="" src="https://iili.io/2qkMIS.png" width=150px height=150px ><br><sub><b>ImgBB API</b></sub></a><br><a href="https://imgbb.com/" title="Design">🎨</a></td>
+  </tr>
+</tbody></table>
+
+
+## Future Prospects:
+
+- [ ] Add more views in Web like full-screen view, Editor view, etc
+- [ ] Add support for more programming languages in programming mode
+- [ ] GitHub integrations for creating the repository
+- [ ] Hosting the web snippet on a suitable hosting platform
+- [ ] Feature to fork the programs in all views/modes
+- [ ] Add compatibility to popular web frameworks
+- [ ] Grow the community size and create beginner-friendly issues
 
 
 ## Team:
 
-> Team Members
+> "Alone we can do so little; together we can do so much."
 
 | S.No. | Name | Role | GitHub Username:octocat: |
 | --------------- | --------------- | --------------- | --------------- |
 | 1. | Pragati Verma | Backend Development | [@PragatiVerma18](https://github.com/PragatiVerma18) |
 | 2. | Rajat Verma | Frontend Developer| [@rajat2502](https://github.com/rajat2502)  |
-| 3. | Shristi Singh | UI Designer | [@shristisingh29](https://github.com/shristisingh29)  |
+| 3. | Shristi Singh | UI Designer/Frontend Developer | [@shristisingh29](https://github.com/shristisingh29)  |
 
-## Slack Channel
-[![chat on slack](https://img.shields.io/badge/chat-on%20slack-brightgreen)](https://join.slack.com/t/codeinnworkspace/shared_invite/zt-hncwfhlc-uZ48U49lBxBLKh_Xd1aXxQ)
-<!-- [https://join.slack.com/t/codeinnworkspace/shared_invite/zt-hncwfhlc-uZ48U49lBxBLKh_Xd1aXxQ](https://join.slack.com/t/codeinnworkspace/shared_invite/zt-hncwfhlc-uZ48U49lBxBLKh_Xd1aXxQ)-->
+
+## FossHack2020
+> This project was made within the span of 2 days under FossHack2020 Hackathon
+
+<a href="https://fossunited.org/hackathon" target="_blank" rel="noopener">
+<img src="https://iili.io/2q8IVt.png" alt='FossHack2020' width='500' height='300'>
+</a>
 
 ## Contributors ✨
 
@@ -330,6 +375,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
 </tbody></table>
 
+
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
@@ -338,4 +384,4 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 
 [![Uses Git](https://forthebadge.com/images/badges/uses-git.svg)](https://github.com/rajat2502/CodeINN/) [![Uses HTML](https://forthebadge.com/images/badges/uses-html.svg)](https://github.com/rajat2502/CodeINN/) [![Uses CSS](https://forthebadge.com/images/badges/uses-css.svg)](https://github.com/rajat2502/CodeINN/) [![Uses JS](https://forthebadge.com/images/badges/uses-js.svg)](https://github.com/rajat2502/CodeINN/)
-[![Built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/rajat2502/CodeINN) [![Built By Developers](https://forthebadge.com/images/badges/built-by-developers.svg)](https://github.com/rajat2502/CodeINN)
+[![Built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/rajat2502/CodeINN) [![Built By Developers](https://forthebadge.com/images/badges/built-by-developers.svg)](https://github.com/rajat2502/CodeINN) 

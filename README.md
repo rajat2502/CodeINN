@@ -32,7 +32,7 @@
 - **Safari**:	version 5.2 and up
 - **Internet Explorer/Edge**:	version 8 and up
 - **Opera**:	version 9 and up
-> **Note**: Support for modern mobile browsers is experimental. The website is not responsive in mobile devices until now.
+> **Note**: Support for modern mobile browsers is experimental. The application is not responsive in mobile devices until now.
 
 ## Technology Stack to be used:
 

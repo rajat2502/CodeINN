@@ -99,6 +99,70 @@ export const getAllSnips = async (username) => {
   }
 };
 
+/**
+ *
+ * @param {object} body - object that contains all the submission inputs
+ * @returns - a token which can be used to fetch the submission details
+ */
+const getSubmissionToken = async (body) => {
+  try {
+    const url = 'https://judge0.p.rapidapi.com/submissions';
+    const options = {
+      headers: {
+        'x-rapidapi-host': process.env.REACT_APP_RAPID_API_HOST,
+        'x-rapidapi-key': process.env.REACT_APP_RAPID_API_KEY,
+        'content-type': 'application/json',
+        accept: 'application/json',
+      },
+    };
+    const {
+      data: { token },
+    } = await axios.post(url, body, options);
+    return token;
+  } catch (err) {
+    console.log(err);
+  }
+};
+
+/**
+ *
+ * @param {string} token - a unique string used to get the subimission details of a particular submission
+ * @returns - an object with all the details of the submission
+ */
+const getSubmissionDetails = async (token) => {
+  try {
+    let success = 0;
+    let dataObj;
+    const url = `https://judge0.p.rapidapi.com/submissions/${token}`;
+    const options = {
+      headers: {
+        'x-rapidapi-host': process.env.REACT_APP_RAPID_API_HOST,
+        'x-rapidapi-key': process.env.REACT_APP_RAPID_API_KEY,
+      },
+    };
+    while (!success) {
+      const { data } = await axios.get(url, options);
+      if (data.status.description === 'Accepted') {
+        success = 1;
+        dataObj = data;
+      }
+    }
+    return dataObj;
+  } catch (err) {
+    return { error: 'Please check your program for errors!' };
+  }
+};
+
+/**
+ * @param {object} body - object that contains all the submission inputs
+ * @returns - the object will all submission details
+ */
+export const runCode = async (body) => {
+  const token = await getSubmissionToken(body);
+  const data = await getSubmissionDetails(token);
+  return data;
+};
+
 //
 // External API
 //

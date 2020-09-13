@@ -11,7 +11,7 @@ export const languages = [
     name: 'C++ (GCC 7.4.0)',
     fileName: 'main.cpp',
     mode: 'clike',
-    code: `#include <iostream>\n\nint main()\n{\n std::cout << "Hello Geeks!!!" << endl;\n std::cout << "Welcome to CodeINN" << endl;\n return 0;\n}\n`,
+    code: `#include <iostream>\nusing namespace std;\n\nint main()\n{\n std::cout << "Hello Geeks!!!" << endl;\n std::cout << "Welcome to CodeINN" << endl;\n return 0;\n}\n`,
   },
   {
     id: 63,
@@ -32,6 +32,6 @@ export const languages = [
     name: 'C# (Mono 6.6.0.161)',
     fileName: 'main.cs',
     mode: 'clike',
-    code: `using System;\n\nclass Program\n{\nstatic void Main(string[] args)\n{\n Console.WriteLine("Hello Geeks!");\n}\n}\n`,
+    code: `using System;\n\nclass Program {\nstatic void Main(string[] args)\n{\n Console.WriteLine("Hello Geeks!");\n Console.WriteLine("Welcome to CodeINN");\n}\n}\n`,
   },
 ];

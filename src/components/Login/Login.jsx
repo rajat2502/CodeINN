@@ -28,6 +28,7 @@ function Login({ user, setUser }) {
     }
   };
 
+  // if already logged in, Redirect to dashboard
   if (user.username) return <Redirect to='/dashboard' />;
 
   return (

@@ -132,6 +132,161 @@ $ python manage.py runserver
 ``` 
 </details>
 
+## Directory Structure
+
+<details>
+  <summary><strong>Frontend Directory Structure</strong></summary>
+
+📦CodeINN\
+ ┣ 📂.github\
+ ┃ ┣ 📂ISSUE_TEMPLATE\
+ ┃ ┃ ┣ 📜bug_report.md\
+ ┃ ┃ ┗ 📜feature_request.md\
+ ┃ ┗ 📜PULL_REQUEST_TEMPLATE.md\
+ ┣ 📂public\
+ ┃ ┣ 📜fav.png\
+ ┃ ┣ 📜index.html\
+ ┃ ┣ 📜logo192.png\
+ ┃ ┣ 📜logo512.png\
+ ┃ ┗ 📜manifest.json\
+ ┣ 📂src\
+ ┃ ┣ 📂api\
+ ┃ ┃ ┗ 📜index.js\
+ ┃ ┣ 📂assets\
+ ┃ ┃ ┣ 📂fonts\
+ ┃ ┃ ┃ ┗ 📜ProximaNovaRegular.ttf\
+ ┃ ┃ ┗ 📂img\
+ ┃ ┃ ┃ ┣ 📜1.gif\
+ ┃ ┃ ┃ ┣ 📜1.jpeg\
+ ┃ ┃ ┃ ┣ 📜1.png\
+ ┃ ┃ ┃ ┣ 📜2.png\
+ ┃ ┃ ┃ ┣ 📜3.png\
+ ┃ ┃ ┃ ┣ 📜4.png\
+ ┃ ┃ ┃ ┣ 📜5.png\
+ ┃ ┃ ┃ ┣ 📜6.png\
+ ┃ ┃ ┃ ┣ 📜7.png\
+ ┃ ┃ ┃ ┣ 📜8.webp\
+ ┃ ┃ ┃ ┣ 📜9.webp\
+ ┃ ┃ ┃ ┗ 📜logo.png\
+ ┃ ┣ 📂components\
+ ┃ ┃ ┣ 📂Dashboard\
+ ┃ ┃ ┃ ┣ 📜AddCodeSnip.jsx\
+ ┃ ┃ ┃ ┣ 📜AddMkdSnip.jsx\
+ ┃ ┃ ┃ ┣ 📜AddWebSnip.jsx\
+ ┃ ┃ ┃ ┣ 📜CodeSnip.jsx\
+ ┃ ┃ ┃ ┣ 📜Dashboard.jsx\
+ ┃ ┃ ┃ ┗ 📜index.js\
+ ┃ ┃ ┣ 📂Home\
+ ┃ ┃ ┃ ┣ 📜Home.jsx\
+ ┃ ┃ ┃ ┗ 📜index.js\
+ ┃ ┃ ┣ 📂Login\
+ ┃ ┃ ┃ ┣ 📜Login.jsx\
+ ┃ ┃ ┃ ┗ 📜index.js\
+ ┃ ┃ ┣ 📂MarkDownPreviewer\
+ ┃ ┃ ┃ ┣ 📜MarkDownPreviewer.jsx\
+ ┃ ┃ ┃ ┗ 📜index.js\
+ ┃ ┃ ┣ 📂ProgramEditor\
+ ┃ ┃ ┃ ┣ 📜ProgramEditor.jsx\
+ ┃ ┃ ┃ ┗ 📜index.js\
+ ┃ ┃ ┣ 📂Signup\
+ ┃ ┃ ┃ ┣ 📜Signup.jsx\
+ ┃ ┃ ┃ ┗ 📜index.js\
+ ┃ ┃ ┣ 📂WebEditor\
+ ┃ ┃ ┃ ┣ 📜BottomBar.jsx\
+ ┃ ┃ ┃ ┣ 📜DefaultWindow.jsx\
+ ┃ ┃ ┃ ┣ 📜DisplayWindow.jsx\
+ ┃ ┃ ┃ ┣ 📜Iframe.jsx\
+ ┃ ┃ ┃ ┣ 📜ImageUpload.jsx\
+ ┃ ┃ ┃ ┣ 📜Shortcuts.jsx\
+ ┃ ┃ ┃ ┣ 📜WebCodeEditor.jsx\
+ ┃ ┃ ┃ ┣ 📜WebEditor.jsx\
+ ┃ ┃ ┃ ┗ 📜index.js\
+ ┃ ┃ ┣ 📜CodeEditor.jsx\
+ ┃ ┃ ┣ 📜Footer.jsx\
+ ┃ ┃ ┣ 📜Icon.jsx\
+ ┃ ┃ ┣ 📜Modal.jsx\
+ ┃ ┃ ┗ 📜Navbar.jsx\
+ ┃ ┣ 📂styles\
+ ┃ ┃ ┣ 📜App.css\
+ ┃ ┃ ┣ 📜index.css\
+ ┃ ┃ ┗ 📜tailwind.css\
+ ┃ ┣ 📂utils\
+ ┃ ┃ ┣ 📜getIcons.js\
+ ┃ ┃ ┣ 📜helpers.js\
+ ┃ ┃ ┣ 📜parseMarkdown.js\
+ ┃ ┃ ┗ 📜useModal.js\
+ ┃ ┣ 📜App.jsx\
+ ┃ ┗ 📜index.js\
+ ┣ 📜.all-contributorsrc\
+ ┣ 📜.gitignore\
+ ┣ 📜CODE_OF_CONDUCT.md\
+ ┣ 📜CONTRIBUTING.md\
+ ┣ 📜LICENSE\
+ ┣ 📜README.md\
+ ┣ 📜jsconfig.json\
+ ┣ 📜netlify.toml\
+ ┣ 📜package-lock.json\
+ ┣ 📜package.json\
+ ┣ 📜postcss.config.js\
+ ┗ 📜tailwind.js\
+
+</details>
+  
+<details>
+  <summary><strong>Backend Directory Structure</strong></summary>
+
+📦CodeINN\
+ ┣ 📂.vscode\
+ ┃ ┗ 📜settings.json\
+ ┣ 📂api\
+ ┃ ┣ 📂migrations\
+ ┃ ┃ ┗ 📜__init__.py\
+ ┃ ┣ 📜__init__.py\
+ ┃ ┣ 📜admin.py\
+ ┃ ┣ 📜apps.py\
+ ┃ ┣ 📜models.py\
+ ┃ ┣ 📜tests.py\
+ ┃ ┣ 📜urls.py\
+ ┃ ┗ 📜views.py\
+ ┣ 📂codeinn\
+ ┃ ┣ 📜__init__.py\
+ ┃ ┣ 📜asgi.py\
+ ┃ ┣ 📜settings.py\
+ ┃ ┣ 📜urls.py\
+ ┃ ┣ 📜views.py\
+ ┃ ┗ 📜wsgi.py\
+ ┣ 📂snips\
+ ┃ ┣ 📂migrations\
+ ┃ ┃ ┣ 📜0001_initial.py\
+ ┃ ┃ ┗ 📜__init__.py\
+ ┃ ┣ 📜__init__.py\
+ ┃ ┣ 📜admin.py\
+ ┃ ┣ 📜apps.py\
+ ┃ ┣ 📜models.py\
+ ┃ ┣ 📜serializers.py\
+ ┃ ┣ 📜tests.py\
+ ┃ ┣ 📜urls.py\
+ ┃ ┗ 📜views.py\
+ ┣ 📂users\
+ ┃ ┣ 📂migrations\
+ ┃ ┃ ┣ 📜0001_initial.py\
+ ┃ ┃ ┗ 📜__init__.py\
+ ┃ ┣ 📜__init__.py\
+ ┃ ┣ 📜admin.py\
+ ┃ ┣ 📜apps.py\
+ ┃ ┣ 📜forms.py\
+ ┃ ┣ 📜models.py\
+ ┃ ┣ 📜serializers.py\
+ ┃ ┣ 📜tests.py\
+ ┃ ┣ 📜urls.py\
+ ┃ ┗ 📜views.py\
+ ┣ 📜.gitignore\
+ ┣ 📜README.md\
+ ┣ 📜manage.py\
+ ┗ 📜requirements.txt
+  
+</details>
+
 ## Slack Channel
 [![chat on slack](https://img.shields.io/badge/chat-on%20slack-brightgreen)](https://join.slack.com/t/codeinnworkspace/shared_invite/zt-hncwfhlc-uZ48U49lBxBLKh_Xd1aXxQ)
 <!-- [https://join.slack.com/t/codeinnworkspace/shared_invite/zt-hncwfhlc-uZ48U49lBxBLKh_Xd1aXxQ](https://join.slack.com/t/codeinnworkspace/shared_invite/zt-hncwfhlc-uZ48U49lBxBLKh_Xd1aXxQ)-->

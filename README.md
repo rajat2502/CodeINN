@@ -32,7 +32,7 @@
 
 ## Demo Video
 <a href="https://youtu.be/xdtb31djE1Y" target="_blank" rel="noopener">
-  <img src="https://i9.ytimg.com/vi_webp/xdtb31djE1Y/mqdefault.webp?sqp=CKy7-PoF&rs=AOn4CLAtWVB9XKyymMx283Nz9EobPYl2-g" alt="CodeINN an online code editor"
+  <img src="https://user-images.githubusercontent.com/42115530/93301744-873b4980-f816-11ea-9c70-371afae8be9c.png" alt="CodeINN an online code editor"
 	title="CodeINN" width="400px" />
 </a>
 

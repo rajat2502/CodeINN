@@ -51,4 +51,4 @@ export const convertToSlug = (Text) =>
     .replace(/ /g, '-')
     .replace(/[^\w-]+/g, '');
 
-export const defaultMD = () => `<div align="center"><img src="https://i.ibb.co/pJTm5d0/logo.png" alt="logo.png" align="center" height='100' /></div>
+export const defaultMD = () => `<div align="center"><img src="https://i.ibb.co/pJTm5d0/logo.png" alt="logo.png" align="center" height='100' /></div>`

@@ -12,18 +12,18 @@ function Footer() {
             alt='Logo'
           />
           <div className='mt-3 flex justify-around'>
-            <a
-              href='https://github.com/rajat2502/CodeINN'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <img
-                className='h-6 m-auto mb-1 w-auto flex-shrink-1'
-                alt='Star'
-                src={require('assets/img/10.png')}
-              />
-              Star us on GitHub
-            </a>
+//             <a
+//               href='https://github.com/rajat2502/CodeINN'
+//               target='_blank'
+//               rel='noopener noreferrer'
+//             >
+//               <img
+//                 className='h-6 m-auto mb-1 w-auto flex-shrink-1'
+//                 alt='Star'
+//                 src={require('assets/img/10.png')}
+//               />
+//               Star us on GitHub
+//             </a>
             <a
               href='https://app.slack.com/client/T01B912QLGY'
               target='_blank'
@@ -36,7 +36,7 @@ function Footer() {
               />
               Join Slack
             </a>
-            <a href='mailto:rajatverma5885045@gmail.com'>
+            <a href='mailto:mittalarchi2403@gmail.com'>
               <img
                 className='h-6 m-auto mb-1 w-auto flex-shrink-1'
                 alt='Email'
@@ -71,7 +71,7 @@ function Footer() {
       </div>
       <div className='text-center bg-gray-800 p-2' style={{ height: 40 }}>
         <p className='text-gray-200 text-center'>
-          MIT License © Copyright 2020 CodeINN.
+          MIT License © Copyright 2021 CodeINN.
         </p>
       </div>
     </>
